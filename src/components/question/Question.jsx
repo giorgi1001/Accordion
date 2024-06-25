@@ -1,5 +1,6 @@
 import React from "react";
 import "./question.css";
+import arrowImg from "/icon-arrow-down.svg";
 
 export default function Question({
   active,
@@ -21,8 +22,18 @@ export default function Question({
       >
         {questionObj.question}
       </p>
+
+      <img
+        className="arrow"
+        src={arrowImg}
+        alt="arrow icon"
+        style={{
+          transform: active === questionNumber ? "rotate(-180deg)" : "",
+        }}
+      />
+
       {active === questionNumber ? (
-        <p className="answer">Answer {questionObj.answer}</p>
+        <p className="answer"> {questionObj.answer}</p>
       ) : null}
     </div>
   );

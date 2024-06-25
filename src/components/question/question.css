@@ -1,6 +1,21 @@
 .question {
-  color: rgb(35, 161, 157);
+  color: #4b4c5f;
 }
 .answer {
-  color: rgb(55, 206, 206);
+  color: #787887;
+}
+.question-div {
+  margin-bottom: 19px;
+  border-bottom: 1px solid #e8e8ea;
+  padding-bottom: 18px;
+  cursor: pointer;
+  position: relative;
+}
+.question-div p {
+  margin-bottom: 10px;
+}
+.arrow {
+  position: absolute;
+  right: 1px;
+  top: 6px;
 }
