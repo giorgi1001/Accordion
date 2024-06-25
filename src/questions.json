@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is quantum physics?",
+    "answer": "Quantum physics is the branch of physics that deals with the behavior of matter and energy at the scale of atoms and subatomic particles. It provides a mathematical framework for understanding and predicting the properties and behavior of these particles."
+  },
+  {
+    "question": "What is a quantum superposition?",
+    "answer": "Quantum superposition is the principle that a quantum system can exist in multiple states or configurations simultaneously until it is measured or observed. This concept is famously illustrated by Schrödinger's cat thought experiment."
+  },
+  {
+    "question": "What is entanglement in quantum physics?",
+    "answer": "Quantum entanglement is a phenomenon where two or more particles become interconnected in such a way that the state of one particle cannot be described independently of the state of the other particles, even when separated by large distances. Changes to the state of one particle will instantaneously affect the state of the entangled particles."
+  },
+  {
+    "question": "What is the uncertainty principle?",
+    "answer": "The uncertainty principle, formulated by Werner Heisenberg, states that it is impossible to simultaneously know both the exact position and exact momentum of a particle. The more precisely one of these properties is known, the less precisely the other can be known."
+  },
+  {
+    "question": "What is quantum tunneling?",
+    "answer": "Quantum tunneling is the phenomenon where particles can pass through a potential energy barrier that they classically shouldn't be able to pass. This occurs because of the wave-like properties of particles at the quantum level, allowing them to 'tunnel' through barriers."
+  }
+]
