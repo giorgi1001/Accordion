@@ -9,15 +9,21 @@ export default function Question({
   questionObj,
 }) {
   return (
-    <div className="question-div">
+    <div
+      onClick={() => {
+        if (active === questionNumber) {
+          setActive(null);
+        } else {
+          setActive(questionNumber);
+        }
+      }}
+      className="question-div"
+    >
       <p
         className="question"
-        onClick={() => {
-          if (active === questionNumber) {
-            setActive(null);
-          } else {
-            setActive(questionNumber);
-          }
+        style={{
+          color: active === questionNumber ? "#1E1F36" : null,
+          fontWeight: active === questionNumber ? "700" : "",
         }}
       >
         {questionObj.question}

@@ -1,9 +1,3 @@
-.question {
-  color: #4b4c5f;
-}
-.answer {
-  color: #787887;
-}
 .question-div {
   margin-bottom: 1.9rem;
   border-bottom: 0.1rem solid #e8e8ea;
@@ -11,11 +5,32 @@
   cursor: pointer;
   position: relative;
 }
-.question-div p {
-  margin-bottom: 0.1rem;
+
+.question {
+  color: #4b4c5f;
+  font-size: 1.3rem;
+  margin-bottom: 1.3rem;
 }
+.question:hover {
+  color: #f47b56;
+}
+.answer {
+  color: #787887;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
 .arrow {
   position: absolute;
   right: 0.1rem;
-  top: 0.6rem;
+  top: 1rem;
+}
+
+@media only screen and (min-width: 90rem) {
+  .question {
+    font-size: 1.4rem;
+  }
+  .arrow {
+    right: 1.5rem;
+  }
 }
