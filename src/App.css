@@ -14,61 +14,14 @@ h1 {
   color: #1e1f36;
   margin-bottom: 3.8rem;
 }
-.woman-mobile {
-  width: 23.7rem;
-  height: 18rem;
-  position: absolute;
-  top: -10.6rem;
-  left: 4.3rem;
-}
-.shadow {
-  width: 24rem;
-  height: 10.8rem;
-  position: absolute;
-  top: -0.3rem;
-  left: 4.3rem;
-}
-.woman-desktop,
-.desktop-shadow,
-.box-img {
-  display: none;
-}
 
 @media only screen and (min-width: 90rem) {
   .contaiener {
     width: 92rem;
     padding: 6.5rem 9.5rem 8.3rem 47.5rem;
   }
-  .woman-mobile,
-  .shadow {
-    display: none;
-  }
+
   h1 {
     text-align: left;
-  }
-  .desktop-shadow {
-    display: block;
-    width: 75.9rem;
-    height: 83.1rem;
-    position: absolute;
-    top: -18.3rem;
-    left: -36.7rem;
-    z-index: 1;
-  }
-  .woman-desktop {
-    display: block;
-    position: absolute;
-    width: 48rem;
-    height: 40rem;
-    top: 8rem;
-    left: -8rem;
-    z-index: 2;
-  }
-  .box-img {
-    display: block;
-    position: absolute;
-    top: 24rem;
-    left: -10rem;
-    z-index: 3;
   }
 }
