@@ -19,6 +19,12 @@ h1 {
   .contaiener {
     width: 92rem;
     padding: 6.5rem 9.5rem 8.3rem 47.5rem;
+    background-image: url("/public/illustration-woman-online-desktop.svg"),
+      url("/public/bg-pattern-desktop.svg");
+    background-repeat: no-repeat, no-repeat;
+
+    background-position: -18% 32%, -687% 83%;
+    background-size: 53%, 93%;
   }
 
   h1 {
